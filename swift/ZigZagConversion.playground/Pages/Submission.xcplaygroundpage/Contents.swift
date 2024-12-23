@@ -23,7 +23,7 @@ class Solution {
 
         var matrix = Array(
             repeating: Array<String>(repeating: "", count: numRows) ,
-            count: s.count 
+            count: s.count
         )
 
         var row = 0
@@ -73,8 +73,8 @@ class Solution {
     }
 }
 
-//let solution = Solution()
-//let s = solution.convert("PAYPALISHIRING", 4)
-
 let solution = Solution()
-let s = solution.convert("ABC", 2)
+let s = solution.convert("PAYPALISHIRING", 4)
+//
+//let solution = Solution()
+//let s = solution.convert("ABC", 2)
