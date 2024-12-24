@@ -1,0 +1,15 @@
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.AssemblyInfoInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.AssemblyInfo.cs
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.csproj.CoreCompileInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.sourcelink.json
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/bin/Debug/net8.0/21-Merge-Two-Sorted-Lists
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/bin/Debug/net8.0/21-Merge-Two-Sorted-Lists.deps.json
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/bin/Debug/net8.0/21-Merge-Two-Sorted-Lists.runtimeconfig.json
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/bin/Debug/net8.0/21-Merge-Two-Sorted-Lists.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/bin/Debug/net8.0/21-Merge-Two-Sorted-Lists.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/refint/21-Merge-Two-Sorted-Lists.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/21-Merge-Two-Sorted-Lists.genruntimeconfig.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/21-Merge-Two-Sorted-Lists/obj/Debug/net8.0/ref/21-Merge-Two-Sorted-Lists.dll
