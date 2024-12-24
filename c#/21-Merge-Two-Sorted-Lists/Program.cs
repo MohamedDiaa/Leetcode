@@ -14,9 +14,8 @@
 
         var solution = new Solution();
         ListNode listNode = solution.MergeTwoLists(l1, l2);
-
-         Console.WriteLine("print result");
-        while(listNode != null)
+        
+        while (listNode != null)
         {
             Console.WriteLine(listNode.val);
             listNode = listNode.next;
@@ -58,49 +57,36 @@ public class ListNode
 public class Solution
 {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2)
-    {   
+    {
         
-         var l1 = list1;
-         var l2 = list2;
-       
-         ListNode root = null;
-         ListNode current = null;
-        
-        do
+         ListNode root = new ListNode(-1);
+         ListNode current = root;
+         
+        while(list1 != null && list2 != null)
         {
-            if (l1 == null || l2 == null)
-            {
-                if (list1 != null)
-                {
-                    current.next = list1;
-                }
-                else 
-                {
-                    current.next = list2;
-                }
-
-                return root;
-            }
-            
-            if(l1.val < l2.val) {
+            if(list1.val < list2.val) {
                 
-                if(current != null) {
-                 current.next = l1;
-                }
-                current = l1;
-                l1 = l1.next;
+                current.next = list1;
+                list1 = list1.next;
             } else {
-                 if(current != null) {
-                     current.next = l2;
-                }
-                current = l2;
-                l2 = l2.next;
+          
+                current.next = list2;
+                list2 = list2.next;
             }
-            if (root == null) {
-                root = current;
-            }
-        } while(l1 != null || l2 != null) ;
+            current = current.next;
+        }
 
-        return root;
+        if (list1 != null)
+        {
+            current.next = list1;
+        }
+        else if (list2 != null)
+        {
+            current.next = list2;
+        }
+
+
+        return root.next;
     }
 }
+
