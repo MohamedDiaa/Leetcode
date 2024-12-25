@@ -1,0 +1,15 @@
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/bin/Debug/net8.0/1-Two-Sum
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/bin/Debug/net8.0/1-Two-Sum.deps.json
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/bin/Debug/net8.0/1-Two-Sum.runtimeconfig.json
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/bin/Debug/net8.0/1-Two-Sum.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/bin/Debug/net8.0/1-Two-Sum.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.AssemblyInfoInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.AssemblyInfo.cs
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.csproj.CoreCompileInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.sourcelink.json
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/refint/1-Two-Sum.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/1-Two-Sum.genruntimeconfig.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/1-Two-Sum/1-Two-Sum/obj/Debug/net8.0/ref/1-Two-Sum.dll
