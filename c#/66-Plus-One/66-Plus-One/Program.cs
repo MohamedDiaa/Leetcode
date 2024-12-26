@@ -24,7 +24,13 @@ public class Solution {
         {
             int[] d = new int[digits.Length + 1];
             d[0] = 1;
-            Array.Copy(digits,0, d,1,digits.Length -1);
+            Array.Copy(
+                digits,
+                0, 
+                d,
+                1,
+                digits.Length -1
+                );
             return d;
         }
 
