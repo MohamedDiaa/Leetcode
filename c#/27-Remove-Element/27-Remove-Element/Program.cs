@@ -16,13 +16,14 @@ public class Solution {
         {
             if (nums[i] == val)
             {
-                k += 1;
                 if (j == -1) {
                 j = i;
                 }
             }
             else
             {
+                k += 1;
+
                 if (j != -1)
                 {
                     nums[j] = nums[i];
