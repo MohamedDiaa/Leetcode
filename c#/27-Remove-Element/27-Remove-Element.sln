@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27-Remove-Element", "27-Remove-Element\27-Remove-Element.csproj", "{69ED3714-9319-4B15-B616-6770F0C0C876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69ED3714-9319-4B15-B616-6770F0C0C876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69ED3714-9319-4B15-B616-6770F0C0C876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69ED3714-9319-4B15-B616-6770F0C0C876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69ED3714-9319-4B15-B616-6770F0C0C876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

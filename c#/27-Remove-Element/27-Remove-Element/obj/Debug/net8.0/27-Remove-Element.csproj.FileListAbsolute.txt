@@ -1,0 +1,15 @@
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/bin/Debug/net8.0/27-Remove-Element
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/bin/Debug/net8.0/27-Remove-Element.deps.json
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/bin/Debug/net8.0/27-Remove-Element.runtimeconfig.json
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/bin/Debug/net8.0/27-Remove-Element.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/bin/Debug/net8.0/27-Remove-Element.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.AssemblyInfoInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.AssemblyInfo.cs
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.csproj.CoreCompileInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.sourcelink.json
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/refint/27-Remove-Element.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/27-Remove-Element.genruntimeconfig.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/27-Remove-Element/27-Remove-Element/obj/Debug/net8.0/ref/27-Remove-Element.dll
