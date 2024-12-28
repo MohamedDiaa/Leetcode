@@ -1,0 +1,15 @@
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.AssemblyInfoInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.AssemblyInfo.cs
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.csproj.CoreCompileInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.sourcelink.json
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/bin/Debug/net8.0/67-Add-Binary
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/bin/Debug/net8.0/67-Add-Binary.deps.json
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/bin/Debug/net8.0/67-Add-Binary.runtimeconfig.json
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/bin/Debug/net8.0/67-Add-Binary.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/bin/Debug/net8.0/67-Add-Binary.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/refint/67-Add-Binary.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/67-Add-Binary.genruntimeconfig.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/67-Add-Binary/67-Add-Binary/obj/Debug/net8.0/ref/67-Add-Binary.dll
