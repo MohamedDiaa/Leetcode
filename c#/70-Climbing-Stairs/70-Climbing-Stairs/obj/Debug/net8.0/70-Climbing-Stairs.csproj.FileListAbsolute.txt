@@ -1,0 +1,15 @@
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/bin/Debug/net8.0/70-Climbing-Stairs
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/bin/Debug/net8.0/70-Climbing-Stairs.deps.json
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/bin/Debug/net8.0/70-Climbing-Stairs.runtimeconfig.json
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/bin/Debug/net8.0/70-Climbing-Stairs.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/bin/Debug/net8.0/70-Climbing-Stairs.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.AssemblyInfoInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.AssemblyInfo.cs
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.csproj.CoreCompileInputs.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.sourcelink.json
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/refint/70-Climbing-Stairs.dll
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.pdb
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/70-Climbing-Stairs.genruntimeconfig.cache
+/Users/mohamedalwakil/Development/Leetcode/c#/70-Climbing-Stairs/70-Climbing-Stairs/obj/Debug/net8.0/ref/70-Climbing-Stairs.dll
