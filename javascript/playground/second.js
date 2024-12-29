@@ -2,8 +2,13 @@
 //alert(Number("123z"));
 //confirm("hello")
 
-let data = [ {
-    user: 10,
+let data = [
+    {
+        user: 20,
+        name: "Zyad",
+    },
+     {
+    user: 13,
     name: "Mohamed Alwakil",
 },
 {
@@ -16,10 +21,12 @@ let data = [ {
 }
 ]
 
-for (const element of data) {
+
+let sorted = data.sort((a,b) => a.name.localeCompare( b.name));
+
+for (const element of sorted) {
     console.log(`Hello ${element.name}`);
 }
-
 
 let fruit = "Apple"
 let cart = {
