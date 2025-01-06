@@ -21,16 +21,38 @@ Example 2:
 
 var countAndSay = function (n) {
 
-    function countAndSay(m) {
-        if(m == 0) return 1;
+function innerCountAndSay(m) {
+    m = m + ""
+    let count = 0
+    let base = "-1"
+    let result = "";
 
-        m.length 
-        
-    }
+        for (const element of m) {
+            //console.log(element);
+           
+            if(base == element){
+                count += 1;
+            } else {
+                if(count > 0) { 
+                result = result + count + base;
+             }
+                base = element;
+                count = 1;
+            }
+        }
 
-    var result = "0";
-    for (let i = 0; i < n; i++) {
-        result = countAndSay(result)
-    }
+        result = result + count + base;
+
     return result;
+}
+
+    let res = 1;
+    for(let i = 0; i < n - 1 ; i++) {
+       // console.log(res);
+        res = innerCountAndSay(res)
+    }
+  
+    return res + ""
 };
+
+console.log((countAndSay(4)))
