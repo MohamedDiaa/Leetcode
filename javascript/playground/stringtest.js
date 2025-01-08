@@ -15,9 +15,15 @@
 // console.log("Interface".toLowerCase());
 // console.log("Interface".toUpperCase());
 
-let str = "Widget with id";
+// let str = "Widget with id";
 
-console.log("Widget",str.indexOf("Widget"));
-console.log("widget",str.indexOf("widget"));
-console.log("id",str.indexOf("id"));
-console.log("id", str.indexOf("id", 2));
+// console.log("Widget",str.indexOf("Widget"));
+// console.log("widget",str.indexOf("widget"));
+// console.log("id",str.indexOf("id"));
+// console.log("id", str.indexOf("id", 2));
+
+let str = `test`;
+console.log(str.split(``));
+
+let str2 = [`Bilbo`,`Gandalf`, `Nazgul`];
+console.log(str2.join(`;`));
