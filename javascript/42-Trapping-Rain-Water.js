@@ -30,19 +30,33 @@ Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
  * @return {number}
  */
 var trap = function (height) {
+    let maxHeight = Math.max(...height);
 
-    return calculate(height);
+    var result = 0;
+    var startIndex = 0;
+  
+    for (let i = 0; i < height.length; i++) {
+        if (height[i] == maxHeight && i != 0) {
+            let slice = height.slice(startIndex, i + 1);
+            console.log("slice",slice);
+            result += calculate(height.slice(startIndex, i + 1), maxHeight);
+            startIndex = i;
+        }
+    }
+    if (startIndex != height.length - 1) {
+        result += calculate(height.slice(startIndex, height.length), maxHeight);
+   
+    }
+    return result;
 };
 
+function calculate(array, maxHeight) {
 
-function calculate(array) {
-    let maxHeight = Math.max(...array);
-    let min = Math.min(...array);
-
+   // console.log(array, maxHeight);
     let result = 0;
-  
-    for (let j = maxHeight - 1; j >= 0; j--) {   
-      
+
+    for (let j = maxHeight - 1; j >= 0; j--) {
+
         let count = -1;
 
         for (let i = 0; i < array.length; i++) {
@@ -62,8 +76,32 @@ function calculate(array) {
     return result;
 }
 
-//}
 
-let arr = calculate([4, 2, 0, 3, 2, 5]);
-console.log(arr);
+//let arr = calculate([4, 2, 0, 3, 2, 5], 5);
+//console.log(arr);
 
+//  arr = calculate([4, 2, 0, 3, 2, 5], 5);
+// console.log(arr);
+
+// arr = calculate([4, 2, 0, 3, 2, 5], 5);
+// console.log(arr);
+
+let arr2 = trap([4,2,3]);
+console.log(arr2);
+
+//let arrtest = [1,2,3,4].slice(0,4);
+//console.log(arrtest);
+
+// let t1 = [4, 2, 0,5, 3, 2, 5]
+// let maxt = Math.max(...t1);
+// var startIndex = 0;
+
+// for (let i = 0; i < t1.length; i++) {
+
+//     if (t1[i] == maxt) {
+       
+//        let a =  t1.slice(startIndex, i + 1);
+//        console.log(a);
+//         startIndex = i;
+//     }
+// }
