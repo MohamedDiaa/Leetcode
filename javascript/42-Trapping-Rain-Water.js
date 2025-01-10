@@ -31,24 +31,49 @@ Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
  */
 var trap = function (height) {
 
+    return calculate(height);
 };
 
 
-function convert(array) {
+function calculate(array) {
     let maxHeight = Math.max(...array);
 
-    let matrix;
+    let matrix = Array.from({ length: maxHeight }, () => Array(array.length).fill(0));
 
     for (let j = 0; j < array.length; j++) {
         for (let i = 0; i < maxHeight; i++) {
             if (i < array[j]) {
                 matrix[i][j] = 1;
-            } else {
-                matrix[i][j] = 0;
             }
         }
     }
-    return matrix;
+
+    let result = 0;
+    for (let j = maxHeight - 1; j >= 0; j--) {
+        let count = -1;
+
+        for (let i = 0; i < array.length; i++) {
+            let elm = matrix[j][i];
+            
+            if (elm == 1) {
+                if (count > 0) {
+                    result += count;
+                }
+                count = 0;
+            }
+            else {
+                if (count != -1) {
+                    count += 1;
+                }
+            }
+        }
+    }
+    return result;
+
 }
 
-console.log(convert([4, 2, 0, 3, 2, 5]));
+//}
+
+let arr = calculate([4, 2, 0, 3, 2, 5]);
+console.log(arr);
+
