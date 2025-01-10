@@ -24,3 +24,31 @@ Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
 0 0 0 1 0 0 0 1 1 0 1 0
 0 1 0 1 1 0 1 1 1 1 1 1 
 */
+
+/**
+ * @param {number[]} height
+ * @return {number}
+ */
+var trap = function (height) {
+
+};
+
+
+function convert(array) {
+    let maxHeight = Math.max(...array);
+
+    let matrix;
+
+    for (let j = 0; j < array.length; j++) {
+        for (let i = 0; i < maxHeight; i++) {
+            if (i < array[j]) {
+                matrix[i][j] = 1;
+            } else {
+                matrix[i][j] = 0;
+            }
+        }
+    }
+    return matrix;
+}
+
+console.log(convert([4, 2, 0, 3, 2, 5]));
