@@ -31,28 +31,11 @@ Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
  */
 var trap = function (height) {
     let maxHeight = Math.max(...height);
-
-    var result = 0;
-    var startIndex = 0;
-  
-    for (let i = 0; i < height.length; i++) {
-        if (height[i] == maxHeight && i != 0) {
-            let slice = height.slice(startIndex, i + 1);
-            console.log("slice",slice);
-            result += calculate(height.slice(startIndex, i + 1), maxHeight);
-            startIndex = i;
-        }
-    }
-    if (startIndex != height.length - 1) {
-        result += calculate(height.slice(startIndex, height.length), maxHeight);
-   
-    }
-    return result;
+   return calculate(height,maxHeight)
 };
 
 function calculate(array, maxHeight) {
 
-   // console.log(array, maxHeight);
     let result = 0;
 
     for (let j = maxHeight - 1; j >= 0; j--) {
