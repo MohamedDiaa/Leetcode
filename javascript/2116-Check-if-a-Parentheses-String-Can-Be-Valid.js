@@ -6,34 +6,28 @@
 
 //https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/description/
 
+var canBeValid = function(s, locked) {
+    
 function Node(sign,prev) {
     this.sign = sign;
     this.prev = prev;
 }
 
-var canBeValid = function(s, locked) {
-    
-    if(s.length%2 != 0) {
-        return false;
-    }
-
     function travere(s, locked, node) {
         
-        console.log(s,locked);
-
         if(s.length == 0) {
             let result = checkValid(node);
-            if(result) {
-                return true;
-            }
+            return result;
         }
         if(locked[0] == 0) {
-             travere(s.slice(1), locked.slice(1),  new Node(`)`, node));
-            
-            travere(s.slice(1), locked.slice(1),  new Node(`(`, node));
-                    }
+            let r1 = travere(s.slice(1), locked.slice(1),  new Node(`)`, node));
+            if(r1) return true;
+
+            return travere(s.slice(1), locked.slice(1),  new Node(`(`, node));
+              
+            }
         else {
-            travere(s.slice(1), locked.slice(1),  new Node(s[0], node));
+            return travere(s.slice(1), locked.slice(1),  new Node(s[0], node));
         }
     }
 
@@ -42,28 +36,30 @@ var canBeValid = function(s, locked) {
         let stack = [];
 
         while(node) {
-            if(node.sign === `)`) {
+            if(node.sign == `)`) {
                 stack.push(`)`);
             }
-            else if(node.sign === `(`) {
+            else  {
                let element = stack.pop();
                if(element != `)`) {
                     return false; 
                }
             }
 
-            node = node.prev.prev
+            node = node.prev
         }
 
         return stack.length == 0;
     }
 
-   let result = travere(s,locked,null);
+    if(s.length%2 != 0) {
+        return false
+    }
 
-    return false;
+    return travere(s,locked,null);     
 };
 
 
-let s ="))()))" , locked = "010100"
+let s = "))()))", locked = "010100"
 let result = canBeValid(s, locked);
 console.log(result);
