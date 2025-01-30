@@ -1,3 +1,10 @@
-**Leetcode notepad**
+# Leetcode notepad
 
-![LeetCode_Logo_1](https://github.com/user-attachments/assets/9e807a81-a15c-48f5-837a-8811a5982b3e)
+Solving leetcode problems and posting solutions in my beloeved languages ![Static Badge](https://img.shields.io/badge/Swift-orange) ![Static Badge](https://img.shields.io/badge/Javascript-green)
+![Static Badge](https://img.shields.io/badge/C%23-blue)
+
+
+
+
+
+![LeetCode_Sharing](https://github.com/user-attachments/assets/760f429c-6abf-46f0-9d9a-e4cc9344553a)
