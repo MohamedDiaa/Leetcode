@@ -1,11 +1,14 @@
+
 const http = require('http');
 
-const options = {
+ const options = {
   hostname: 'google.com',
   port: 80,
   path: '/',
   method: 'GET',
 };
+
+export default options;
 
 const request = http.request(options, (res) => {
   let responseData = '';
