@@ -3,7 +3,7 @@
 // let result = arr.reduce((sum,item) => sum + item, 0);
 
 // console.log(result);
- let alert = console.log;
+//  let alert = console.log;
 
 // let army = {
 //     minAge: 18,
@@ -42,3 +42,4 @@
 // ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
 //     alert(`${item} is at index ${index} in ${array}`);
 //   });
+
